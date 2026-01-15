@@ -23,14 +23,14 @@
 </head>
 <body>
     <!-- NAVBAR -->
-    <nav class="navbar" role="navigation" aria-label="Main navigation">
+    <nav class="navbar">
         <div class="nav-container">
-            <a href="#" class="logo" aria-label="Magis Pro Home">
+            <a href="#" class="logo">
                 <img src="https://i.postimg.cc/KFp4mKKZ/icon-1.png" alt="Magis Pro Logo" class="logo-img">
                 <span class="logo-text">Magis Pro</span>
             </a>
-            <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-hidden="true">
-            <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle navigation menu">
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <label for="nav-toggle" class="nav-toggle-label">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -47,11 +47,10 @@
 
     <!-- HERO SECTION -->
     <header class="hero" id="hero">
-        <div class="hero-bg-elements" aria-hidden="true">
+        <div class="hero-bg">
             <div class="hero-orb hero-orb-1"></div>
             <div class="hero-orb hero-orb-2"></div>
             <div class="hero-orb hero-orb-3"></div>
-            <div class="hero-grid"></div>
         </div>
         <div class="hero-content">
             <div class="hero-badge">
@@ -65,16 +64,16 @@
             <p class="hero-subheadline">Official developer page of Magis Pro</p>
             <div class="hero-cta">
                 <a href="#apps" class="btn btn-primary">
-                    <span class="btn-icon">⚡</span>
+                    <span>⚡</span>
                     Apps Coming Soon
                 </a>
                 <a href="#company" class="btn btn-secondary">
-                    <span class="btn-icon">✉</span>
+                    <span>✉</span>
                     Contact Us
                 </a>
             </div>
         </div>
-        <div class="hero-scroll-indicator" aria-hidden="true">
+        <div class="hero-scroll">
             <span class="scroll-line"></span>
         </div>
     </header>
@@ -82,7 +81,7 @@
     <main>
         <!-- ABOUT SECTION -->
         <section class="about" id="about">
-            <div class="section-container">
+            <div class="container">
                 <div class="section-header">
                     <span class="section-tag">Who We Are</span>
                     <h2 class="section-title">About <span class="gradient-text">Magis Pro</span></h2>
@@ -114,15 +113,15 @@
             </div>
         </section>
 
-        <!-- APPS / COMING SOON SECTION -->
+        <!-- APPS SECTION -->
         <section class="apps" id="apps">
-            <div class="section-container">
+            <div class="container">
                 <div class="section-header">
                     <span class="section-tag">Our Products</span>
                     <h2 class="section-title">Applications</h2>
                 </div>
                 <div class="coming-soon-widget">
-                    <div class="widget-glow" aria-hidden="true"></div>
+                    <div class="widget-glow"></div>
                     <div class="widget-content">
                         <div class="widget-icon">🚀</div>
                         <h3 class="widget-title">Our applications are coming very soon — live</h3>
@@ -147,16 +146,14 @@
 
         <!-- COMPANY SECTION -->
         <section class="company" id="company">
-            <div class="section-container">
+            <div class="container">
                 <div class="section-header">
                     <span class="section-tag">Legal Entity</span>
                     <h2 class="section-title">Company <span class="gradient-text">Information</span></h2>
                 </div>
                 <div class="company-card">
-                    <div class="company-logo-area">
-                        <div class="company-logo">
-                            <img src="https://i.postimg.cc/KFp4mKKZ/icon-1.png" alt="CIO Magic Logo" class="company-logo-img">
-                        </div>
+                    <div class="company-header">
+                        <div class="company-logo">CIO</div>
                         <h3 class="company-name">CIO MAGIC LIMITED</h3>
                         <p class="company-tagline">Registered in England & Wales</p>
                     </div>
@@ -195,8 +192,8 @@
         </section>
 
         <!-- PRIVACY POLICY SECTION -->
-        <section class="legal-section privacy" id="privacy">
-            <div class="section-container">
+        <section class="legal-section" id="privacy">
+            <div class="container">
                 <div class="section-header">
                     <span class="section-tag">Legal</span>
                     <h2 class="section-title">Privacy <span class="gradient-text">Policy</span></h2>
@@ -261,8 +258,8 @@
         </section>
 
         <!-- TERMS OF SERVICE SECTION -->
-        <section class="legal-section terms" id="terms">
-            <div class="section-container">
+        <section class="legal-section legal-section-alt" id="terms">
+            <div class="container">
                 <div class="section-header">
                     <span class="section-tag">Legal</span>
                     <h2 class="section-title">Terms of <span class="gradient-text">Service</span></h2>
@@ -332,7 +329,7 @@
 
     <!-- FOOTER -->
     <footer class="footer">
-        <div class="footer-container">
+        <div class="container">
             <div class="footer-brand">
                 <a href="#" class="footer-logo">
                     <img src="https://i.postimg.cc/KFp4mKKZ/icon-1.png" alt="Magis Pro Logo" class="logo-img">
@@ -348,8 +345,8 @@
                 <a href="#terms">Terms</a>
             </div>
             <div class="footer-legal">
-                <p>&copy; 2025 CIO MAGIC LIMITED. All rights reserved.</p>
-                <p>Company Number: 16198428 | Registered in England &amp; Wales</p>
+                <p>© 2025 CIO MAGIC LIMITED. All rights reserved.</p>
+                <p>Company Number: 16198428 | Registered in England & Wales</p>
             </div>
         </div>
     </footer>
