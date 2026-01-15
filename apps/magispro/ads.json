@@ -1,0 +1,38 @@
+{
+  "settings": {
+    "ads_enabled": true,
+    "aggressiveness_level": "high", 
+    "//comment_aggressiveness": "Set to 'high' for ad on every click, 'normal' for every 3 clicks, 'low' for every 5 clicks",
+    "interstitial_click_threshold": 1,
+    "primary_network": "admob",
+    "fallback_network": "meta"
+  },
+  "keys": {
+    "admob_app_id_android": "YOUR_ADMOB_APP_ID_HERE",
+    "meta_app_id_android": "YOUR_META_APP_ID_HERE"
+  },
+  "units": {
+    "banner_home": {
+      "enabled": true,
+      "type": "banner",
+      "network": "admob",
+      "admob_id": "ca-app-pub-3940256099942544/6300978111",
+      "meta_id": "YOUR_META_BANNER_ID"
+    },
+    "native_list": {
+      "enabled": true,
+      "type": "native",
+      "network": "meta",
+      "admob_id": "ca-app-pub-3940256099942544/2247696110",
+      "meta_id": "YOUR_META_NATIVE_ID"
+    },
+    "interstitial_details": {
+      "enabled": true,
+      "type": "interstitial",
+      "network": "mixed",
+      "//comment_mixed": "Mixed means it will try Primary first, if fails, tries Fallback",
+      "admob_id": "ca-app-pub-3940256099942544/1033173712",
+      "meta_id": "YOUR_META_INTERSTITIAL_ID"
+    }
+  }
+}
